@@ -9,6 +9,8 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 
 | markov-service | Generador de texto automatico (CRUD) | https://github.com/Diego-3126/markov-service.git |
 | 3.144.194.27 | http://localhost:8083/swagger-ui.html | Diego Fernando España Valderrama (Diego-3126) | listo |
+
+| asset-service | Subir archivos PDF, videos e imagenes | 
 ```
 
 ## Detalle por servicio
