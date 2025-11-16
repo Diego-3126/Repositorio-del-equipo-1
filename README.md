@@ -72,6 +72,42 @@ finalizar
  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al
 finalizar
 ```
+### microservicio asset-service
+```bash
+- **Responsable:** Andres David Perea Herrera
+- **Repositorio:** https://github.com/andresperea01/asset-service.git
+- **Base URL (EC2):**
+- **Frontend Upload:** http://localhost:8080/upload.html
+- **Swagger UI:** http://localhost:8080/swagger-ui.html
+- **H2 Console:** http://localhost:8080/h2-console
+- **API Docs:** http://localhost:8080/api-docs
+- **Endpoints mínimos:**
+  - POST /api/assets - Crear asset con archivo
+  - GET /api/assets - Listar todos los assets
+  - GET /api/assets/{id} - Obtener asset por ID
+  - PUT /api/assets/{id} - Actualizar metadatos
+  - PUT /api/assets/{id}/file - Actualizar con archivo
+  - DELETE /api/assets/{id} - Eliminar asset
+  - GET /api/assets/download/{fileName} - Descargar archivo
+  - GET /api/assets/preview/{fileName} - Preview de archivo
+  - GET /api/assets/category/{category} - Filtrar por categoría
+  - GET /api/assets/limits - Obtener límites de tamaño
+  - GET /swagger-ui.html - Documentación Swagger
+  - GET /h2-console - Consola base de datos H2
+
+- **Checklist de verificación (semanal):**
+  - [✅] Compila y arranca local
+  - [✅] `/api/assets` **POST** crea asset con archivo en local
+  - [✅] `/api/assets` **GET** lista todos los assets en local
+  - [✅] Drag & drop funciona en `/upload.html`
+  - [✅] Preview de archivos funciona correctamente
+  - [✅] Validación de límites por tipo (PDF: 50MB, Imágenes: 10MB, Videos: 100MB)
+  - [✅] Asociación con OVA funcional
+  - [✅] Barra de progreso de upload funciona
+  - [-] Swagger accesible en EC2
+  - [✅] Push diario con commits significativos
+  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+```
 
 ### auth-service
 
