@@ -15,7 +15,7 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 
 | auth-service | Inicio de sesion en la plataforma | https://github.com/andresperea01/Auth-service |
 | 3.144.194.27 | http://localhost:8081/h2-console | Andres David Perea Herrera (andresperea01) | listo |
-
+```
 
 ## Detalle por servicio
 
