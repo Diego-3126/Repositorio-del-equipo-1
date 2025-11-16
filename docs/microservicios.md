@@ -15,6 +15,10 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 
 | auth-service | Inicio de sesion en la plataforma | https://github.com/andresperea01/Auth-service |
 | 3.144.194.27 | http://localhost:8081/h2-console | Andres David Perea Herrera (andresperea01) | listo |
+
+| assent-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git|
+|3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
+
 ```
 
 ## Detalle por servicio
@@ -125,9 +129,34 @@ finalizar
   - GET /v3/api-docs
 
 - **Checklist de verificación (semanal):**
+
   - [✅] Compila y arranca local
   - [✅] `/api/auth/register` y `/api/auth/login` funcionan
   - [-] Swagger accesible en EC2
   - [✅] Push diario con commits significativos
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
+### Assent-servide
+- **Responsable:** Juan Fernando Vargas (Juanvargas-code)  
+- **Repositorio:** https://github.com/juanvargas-code/Registro_usuario.git 
+- **Base URL (EC2):** 
+- **Swagger UI:** http://localhost:8080/swagger-ui.html
+- H2 Console: http://localhost:8080/h2-console
+- API Docs: http://localhost:8080/api-docs
+- Upload Page: http://localhost:8080/upload.html 
+- **Entidades principales:**  
+  - `<EntidadPrincipal>` (campos clave: …)  
+- **Endpoints mínimos:**  
+  - `POST /api/register`  
+  - `GET /api/user`  
+  - `GET /api/upload.html`  
+  - `PUT /api/<h2-console`  
+   
+- **Checklist de verificación (semanal):**  
+  - [✔] Compila y arranca local  
+  - [✔] `/actuator/health` **UP** en local  
+  - [-] Swagger accesible en EC2  
+  - [✔] Push diario con commits significativos  
+  - [✔] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+
+---
