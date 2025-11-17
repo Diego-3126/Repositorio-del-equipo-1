@@ -19,6 +19,9 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 | assent-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git|
 |3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
 
+| list-ovas | listar ovas | https://github.com/SantiagoGonzalezGomez/ms-ovalist.git|
+|3.144.194.27 | http://localhost:8080/h2-console | Santiago Gonzalez Gomez (SantiagoGonzalezGomez) | listo |
+
 ```
 
 ## Detalle por servicio
@@ -166,5 +169,14 @@ finalizar
 - **Responsable:** Santiago Gonzalez Gomez
 - **Repositorio:** https://github.com/SantiagoGonzalezGomez/ms-ovalist.git
 - **Base URL (Local):** http://localhost:8080
-- **Swagger UI:** 
+- **Swagger UI:** http://localhost:8080/swagger-ui.html
+- **Endpoints**
+- `GET /actuator/health`  
+- `GET /api/ovas/health`  
+- `GET /api/ovas/{id}`  
+- `POST /api/ovas`  
+- `PUT /api/ovas/{id}`
+- `DELETE /api/ovas/{id}`  
+- `GET /api/ovas/categoria/{categoria}`
+- `GET /api/ovas/buscar?titulo=java`
 ```
