@@ -16,10 +16,10 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 | auth-service | Inicio de sesion en la plataforma | https://github.com/andresperea01/Auth-service |
 | 3.144.194.27 | http://localhost:8081/h2-console | Andres David Perea Herrera (andresperea01) | listo |
 
-| assent-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git|
+| auth-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git |
 | 3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
 
-| list-ovas | listar ovas | https://github.com/SantiagoGonzalezGomez/ms-ovalist.git|
+| ova-service | listar ovas | https://github.com/SantiagoGonzalezGomez/ms-ovalist.git |
 | 3.144.194.27 | http://localhost:8080/h2-console | Santiago Gonzalez Gomez (SantiagoGonzalezGomez) | listo |
 
 ```
@@ -41,7 +41,7 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 - **Checklist de verificación (semanal):**
  - [✅] Compila y arranca local
  - [✅] `/actuator/health` **UP** en local
- - [-] Swagger accesible en EC2
+ - [✅] Swagger accesible en EC2
  - [✅] Push diario con commits significativos
  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al
 finalizar
@@ -74,7 +74,7 @@ finalizar
 - **Checklist de verificación (semanal):**
  - [✅] Compila y arranca local
  - [✅] `/actuator/health` **UP** en local
- - [-] Swagger accesible en EC2
+ - [✅] Swagger accesible en EC2
  - [✅] Push diario con commits significativos
  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al
 finalizar
@@ -111,7 +111,7 @@ finalizar
   - [✅] Validación de límites por tipo (PDF: 50MB, Imágenes: 10MB, Videos: 100MB)
   - [✅] Asociación con OVA funcional
   - [✅] Barra de progreso de upload funciona
-  - [-] Swagger accesible en EC2
+  - [✅] Swagger accesible en EC2
   - [✅] Push diario con commits significativos
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
@@ -135,12 +135,12 @@ finalizar
 
   - [✅] Compila y arranca local
   - [✅] `/api/auth/register` y `/api/auth/login` funcionan
-  - [-] Swagger accesible en EC2
+  - [✅] Swagger accesible en EC2
   - [✅] Push diario con commits significativos
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
 
-### Assent-servide
+### Auth-service
 ```bash
 - **Responsable:** Juan Fernando Vargas (Juanvargas-code)  
 - **Repositorio:** https://github.com/juanvargas-code/Registro_usuario.git 
@@ -160,11 +160,11 @@ finalizar
 - **Checklist de verificación (semanal):**  
   - [✅] Compila y arranca local  
   - [✅] `/actuator/health` **UP** en local  
-  - [-] Swagger accesible en EC2  
+  - [✅] Swagger accesible en EC2  
   - [✅] Push diario con commits significativos  
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
-### microservicio Listar-ovas
+### microservicio ova-service
 ```bash
 - **Responsable:** Santiago Gonzalez Gomez
 - **Repositorio:** https://github.com/SantiagoGonzalezGomez/ms-ovalist.git
@@ -182,7 +182,7 @@ finalizar
 - **Checklist de verificación (semanal):**  
   - [✅] Compila y arranca local  
   - [✅] `/actuator/health` **UP** en local  
-  - [-] Swagger accesible en EC2  
+  - [✅] Swagger accesible en EC2  
   - [✅] Push diario con commits significativos  
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
