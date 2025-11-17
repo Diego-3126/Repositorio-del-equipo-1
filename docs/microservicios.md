@@ -136,7 +136,9 @@ finalizar
   - [✅] Push diario con commits significativos
   - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
+
 ### Assent-servide
+```bash
 - **Responsable:** Juan Fernando Vargas (Juanvargas-code)  
 - **Repositorio:** https://github.com/juanvargas-code/Registro_usuario.git 
 - **Base URL (EC2):** 
@@ -158,5 +160,11 @@ finalizar
   - [-] Swagger accesible en EC2  
   - [✔] Push diario con commits significativos  
   - [✔] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
-
----
+```
+### microservicio Listar-ovas
+```bash
+- **Responsable:** Santiago Gonzalez Gomez
+- **Repositorio:** https://github.com/SantiagoGonzalezGomez/ms-ovalist.git
+- **Base URL (Local):** http://localhost:8080
+- **Swagger UI:** 
+```
