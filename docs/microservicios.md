@@ -179,4 +179,11 @@ finalizar
 - `DELETE /api/ovas/{id}`  
 - `GET /api/ovas/categoria/{categoria}`
 - `GET /api/ovas/buscar?titulo=java`
+- **Checklist de verificación (semanal):**  
+  - [ ] Compila y arranca local  
+  - [ ] `/actuator/health` **UP** en local  
+  - [ ] Swagger accesible en EC2  
+  - [ ] Push diario con commits significativos  
+  - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+
 ```
