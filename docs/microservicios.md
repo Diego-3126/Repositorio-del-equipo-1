@@ -17,10 +17,10 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 | 3.144.194.27 | http://localhost:8081/h2-console | Andres David Perea Herrera (andresperea01) | listo |
 
 | assent-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git|
-|3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
+| 3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
 
 | list-ovas | listar ovas | https://github.com/SantiagoGonzalezGomez/ms-ovalist.git|
-|3.144.194.27 | http://localhost:8080/h2-console | Santiago Gonzalez Gomez (SantiagoGonzalezGomez) | listo |
+| 3.144.194.27 | http://localhost:8080/h2-console | Santiago Gonzalez Gomez (SantiagoGonzalezGomez) | listo |
 
 ```
 
@@ -158,11 +158,11 @@ finalizar
   - `PUT /api/<h2-console`  
    
 - **Checklist de verificación (semanal):**  
-  - [✔] Compila y arranca local  
-  - [✔] `/actuator/health` **UP** en local  
+  - [✅] Compila y arranca local  
+  - [✅] `/actuator/health` **UP** en local  
   - [-] Swagger accesible en EC2  
-  - [✔] Push diario con commits significativos  
-  - [✔] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
+  - [✅] Push diario con commits significativos  
+  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
 ### microservicio Listar-ovas
 ```bash
@@ -180,10 +180,9 @@ finalizar
 - `GET /api/ovas/categoria/{categoria}`
 - `GET /api/ovas/buscar?titulo=java`
 - **Checklist de verificación (semanal):**  
-  - [ ] Compila y arranca local  
-  - [ ] `/actuator/health` **UP** en local  
-  - [ ] Swagger accesible en EC2  
-  - [ ] Push diario con commits significativos  
-  - [ ] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
-
+  - [✅] Compila y arranca local  
+  - [✅] `/actuator/health` **UP** en local  
+  - [-] Swagger accesible en EC2  
+  - [✅] Push diario con commits significativos  
+  - [✅] Historia/tarea en Jira: **En progreso** → **Terminado** al finalizar
 ```
