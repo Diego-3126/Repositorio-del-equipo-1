@@ -17,7 +17,7 @@ Este repositorio contiene la información de los microservicios diseñados y rea
 | 3.144.194.27 | http://localhost:8081/h2-console | Andres David Perea Herrera (andresperea01) | listo |
 
 | auth-service | registro de usuarios | https://github.com/juanvargas-code/Registro_usuario.git |
-| 3.144.194.27 | http://localhost:8080/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
+| 3.144.194.27 | http://localhost:8082/h2-console | Juan Fernando Vargas Angel (juanvargas-code) | curso |
 
 | ova-service | listar ovas | https://github.com/SantiagoGonzalezGomez/ms-ovalist.git |
 | 3.144.194.27 | http://localhost:8080/h2-console | Santiago Gonzalez Gomez (SantiagoGonzalezGomez) | listo |
@@ -143,19 +143,17 @@ finalizar
 ### Auth-service
 ```bash
 - **Responsable:** Juan Fernando Vargas (Juanvargas-code)  
-- **Repositorio:** https://github.com/juanvargas-code/Registro_usuario.git 
+- **Repositorio:** https://github.com/juanvargas-code/registro
 - **Base URL (EC2):** 
-- **Swagger UI:** http://localhost:8080/swagger-ui.html
-- H2 Console: http://localhost:8080/h2-console
-- API Docs: http://localhost:8080/api-docs
-- Upload Page: http://localhost:8080/upload.html 
+- **Swagger UI:** http://localhost:8082/swagger-ui.html
+- H2 Console: http://localhost:8082/h2-console
+- Upload Page: http://localhost:8082/register.html
 - **Entidades principales:**  
   - `<EntidadPrincipal>` (campos clave: …)  
 - **Endpoints mínimos:**  
   - `POST /api/register`  
-  - `GET /api/user`  
-  - `GET /api/upload.html`  
-  - `PUT /api/<h2-console`  
+  - `GET /api/confirm`  
+  - `GET /api/Check-email`   
    
 - **Checklist de verificación (semanal):**  
   - [✅] Compila y arranca local  
